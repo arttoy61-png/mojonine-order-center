@@ -1,0 +1,1 @@
+Image assets are being restored from the supplied Manus source package.
