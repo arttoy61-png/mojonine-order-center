@@ -1,7 +1,7 @@
 const PRODUCTS={
- sweet:{name:'황금한입 고구마칩',unit:'박스',meta:'01 · FOOD',desc:'달콤하고 바삭한 고구마 스낵',main:'assets/sweet-main.webp',images:['assets/sweet-main.webp','assets/sweet-2.webp','assets/sweet-3.webp','assets/sweet-pack.webp']},
- dryer:{name:'HANBUL 헤어드라이어',unit:'개',meta:'02 · APPLIANCE',desc:'깔끔한 화이트 바디의 생활가전',main:'assets/dryer-main.webp',images:['assets/dryer-main.webp','assets/dryer-2.webp','assets/dryer-3.webp','assets/dryer-4.webp']},
- sesame:{name:'오모나 참깨강정',unit:'박스',meta:'03 · FOOD',desc:'고소하고 바삭한 참깨 전통 간식',main:'assets/sesame-main.webp',images:['assets/sesame-main.webp','assets/sesame-2.webp','assets/sesame-3.webp','assets/sesame-4.webp']}
+ sweet:{name:'황금한입 고구마칩',unit:'박스',meta:'01 · FOOD',desc:'달콤하고 바삭한 고구마 스낵',main:'assets/sweet-main.webp',images:['assets/sweet-main.webp']},
+ dryer:{name:'HANBUL 헤어드라이어',unit:'개',meta:'02 · APPLIANCE',desc:'깔끔한 화이트 바디의 생활가전',main:'assets/dryer-main.webp',images:['assets/dryer-main.webp']},
+ sesame:{name:'오모나 참깨강정',unit:'박스',meta:'03 · FOOD',desc:'고소하고 바삭한 참깨 전통 간식',main:'assets/sesame-main.webp',images:['assets/sesame-main.webp']}
 };
 let cart={sweet:0,dryer:0,sesame:0}; let activeDetail='sweet';
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
